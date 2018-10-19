@@ -179,7 +179,7 @@ public class GridSwipe : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         {
             OnNext();
         }
-        else
+        else if (round > endPos)
         {
             OnBack();
         }
